@@ -1,0 +1,12 @@
+/* Header logo dimensions */
+.md-header__button.md-logo img {
+    width: 84px;
+    height: 35px;
+    object-fit: contain;
+}
+
+/* Dark mode logo */
+[data-md-color-scheme="slate"]
+.md-header__button.md-logo img {
+    content: url("../images/site/logo/logo-dark.png");
+}
