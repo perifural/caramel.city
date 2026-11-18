@@ -10,7 +10,7 @@ generator = false
 
 [project.theme]
 language = "zh"
-favicon = "images/favicon.png"
+favicon = "images/site/favicon.png"
 logo = "images/site/logo/logo-light.png"
 custom_dir = "overrides"
 
