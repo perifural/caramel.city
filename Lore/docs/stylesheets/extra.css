@@ -1,14 +1,14 @@
 
 /* ==========================================
    Caramel Lore - Custom Logo Styling
-   Header: 84 × 35 px
+   Header: 72 × 30 px
    Mobile sidebar: 60 × 25 px
    ========================================== */
 
 /* Header logo */
 .md-header__button.md-logo img {
-    width: 84px;
-    height: 35px;
+    width: 72px;
+    height: 30px;
     max-width: none;
     max-height: none;
     object-fit: contain;
