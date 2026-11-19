@@ -1,7 +1,6 @@
 ---
 title: 瑞雪：一只年的使命
 hide:
-  - navigation
   - toc
 ---
 
