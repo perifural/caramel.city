@@ -2,7 +2,7 @@
 site_name = "焦糖拾遗"
 site_url = "https://lore.caramel.city"
 site_author = "向往美好的焦糖城小动物们"
-copyright = "&copy; 2019-2026 焦糖城"
+copyright = "&copy; 2019–2026 焦糖城 · 不需要魔法，亦能成就美好。"
 extra_css = ["stylesheets/extra.css"]
 
 [project.extra]
