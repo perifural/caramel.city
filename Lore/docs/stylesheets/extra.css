@@ -1,12 +1,43 @@
-/* Header logo dimensions */
+
+/* ==========================================
+   Caramel Lore - Custom Logo Styling
+   Header: 84 × 35 px
+   Mobile sidebar: 60 × 25 px
+   ========================================== */
+
+/* Header logo */
 .md-header__button.md-logo img {
     width: 84px;
     height: 35px;
+    max-width: none;
+    max-height: none;
     object-fit: contain;
 }
 
-/* Dark mode logo */
-[data-md-color-scheme="slate"]
-.md-header__button.md-logo img {
+/* Mobile sidebar logo */
+@media screen and (max-width: 76.2344em) {
+
+    /* Override the default square logo container */
+    .md-nav .md-nav__title[for="__drawer"] .md-logo {
+        width: 60px;
+        height: 25px;
+        flex: 0 0 60px;
+        padding: 0;
+    }
+
+    /* Set the image dimensions */
+    .md-nav .md-nav__title[for="__drawer"] .md-logo img {
+        display: block;
+        width: 60px;
+        height: 25px;
+        max-width: none;
+        max-height: none;
+        object-fit: contain;
+    }
+}
+
+/* Dark mode: header and mobile sidebar */
+[data-md-color-scheme="slate"] .md-header__button.md-logo img,
+[data-md-color-scheme="slate"] .md-nav .md-nav__title[for="__drawer"] .md-logo img {
     content: url("../images/site/logo/logo-dark.png");
 }
